@@ -1,3 +1,7 @@
+from QuantConnect import *
+from QuantConnect.Data import *
+from QuantConnect.Research import QuantBook
+
 # QuantBook Analysis Tool
 # For more information see [https://www.quantconnect.com/docs/v2/our-platform/research/getting-started]
 qb = QuantBook()
