@@ -1,0 +1,7 @@
+# QuantBook Analysis Tool
+# For more information see [https://www.quantconnect.com/docs/v2/our-platform/research/getting-started]
+qb = QuantBook()
+gold = qb.AddCfd("XAUUSD",Resolution.DAILY)
+history = qb.history(gold.symbol, 360, Resolution.DAILY)
+
+history.head()
